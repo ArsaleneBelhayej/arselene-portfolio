@@ -1,0 +1,207 @@
+{
+  "Header.Item1": "À Propos de Moi",
+  "Header.Item2": "Expérience",
+  "Header.Item3": "Projets",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "CV",
+  "Header.cvName": "CV_Francais_Arselene.pdf",
+
+  "Banner.Pretitle": "Salut ! Je m'appelle",
+  "Banner.Postitle": "Ingénieur DevOps et Cloud",
+  "Banner.Description": "Je suis un <span class='underline'>Ingénieur DevOps et Cloud</span> fort d'une expérience dans la conception et le déploiement de solutions cloud évolutives, l'automatisation des <span class='underline'>pipelines CI/CD</span> et la mise en œuvre de la mise à l'échelle prédictive avec <span class='underline'>Kubernetes</span> et <span class='underline'>Terraform</span> sur <span class='underline'>AWS</span>. Je suis dédié à l'optimisation des infrastructures cloud, à la sécurité et à l'amélioration de l'efficacité opérationnelle.",
+  "Banner.ActionBtn": "Contactez-moi",
+
+  "AboutMe.Title": "À Propos de Moi",
+  "AboutMe.Paragraphs": [
+    "En tant qu'<span class='underline'>Ingénieur Cloud et DevOps</span>, j'ai occupé des rôles tels qu'<span class='underline'>Ingénieur Infrastructure Cloud</span>, <span class='underline'>Ingénieur DevSecOps</span> et <span class='underline'>Développeur Full-Stack</span>. J'aime concevoir des systèmes évolutifs, automatiser des processus et créer des solutions qui favorisent l'efficacité et l'innovation.",
+    "Mes compétences incluent la conception d'architectures cloud sécurisées, l'optimisation des <span class='underline'>pipelines CI/CD</span>, la mise en œuvre de la mise à l'échelle prédictive et le développement d'outils améliorant les flux de travail et la fiabilité des systèmes.",
+    "J'apprécie aussi travailler sur des projets personnels, d'explorer les nouvelles technologies et d'élargir mes compétences pour le plaisir et l'utilité.",
+    "Voici quelques-unes des technologies avec lesquelles j'ai travaillé ou reçu une formation, ainsi que les récompenses que j'ai obtenues :"
+  ],
+
+  "Experience.Title": "Expérience et Éducation",
+  "Experience.Jobs": [
+    {
+      "Tab": "SB AI",
+      "Title": "Ingénieur Infrastructure Cloud",
+      "Date": "Juin 2024 - Sep 2024 | Zürich, Suisse",
+      "Description": [
+        "Déploiement d'un IDE basé sur le cloud avec AWS Cloud9, Lambda et API Gateway, améliorant les flux de travail de développement.",
+        "Création et maintenance de pipelines CI/CD avec AWS CodePipeline et Jenkins, automatisant les déploiements.",
+        "Utilisation de Kubernetes et Terraform pour une infrastructure évolutive et automatisée.",
+        "Surveillance des performances système avec Prometheus et conteneurisation des applications avec Docker.",
+        "<span class='underline'> AWS Cloud9, Lambda, API Gateway, Kubernetes, Terraform, Jenkins, Docker, Prometheus</span>"
+      ]
+    },
+    {
+      "Tab": "EmeralDevs",
+      "Title": "Ingénieur Cloud",
+      "Date": "Sep 2023 - Fév 2024 | Ariana, Tunisie",
+      "Description": [
+        "Amélioration de la scalabilité de l'infrastructure avec AWS Auto Scaling et EC2.",
+        "Mise en œuvre de politiques IAM et gestion des accès, renforçant les mesures de sécurité et simplifiant les flux de travail opérationnels.",
+        "Utilisation d'outils tels qu'Azure, Kubernetes, Terraform et Jenkins pour automatiser les processus d'infrastructure et de déploiement, garantissant stabilité et évolutivité.",
+        "<span class='underline'>AWS EC2, S3, Auto Scaling, IAM, Azure, Kubernetes, Docker, Terraform, Jenkins</span>"
+      ]
+    },
+    {
+      "Tab": "DataDoIT",
+      "Title": "Stagiaire DevOps",
+      "Date": "Juin 2023 - Sep 2023 | Manouba, Tunisie",
+      "Description": [
+        "Développement d'un pipeline de déploiement entièrement automatisé pour une application MERN à l'aide d'Azure DevOps et Terraform, réduisant l'intervention manuelle et le temps de déploiement.",
+        "Création d'un tableau de bord Grafana pour la surveillance en temps réel et le dépannage du système.",
+        "Intégration de Docker et Kubernetes pour des déploiements conteneurisés, garantissant des environnements d'application cohérents et un temps d'arrêt minimal.",
+        "<span class='underline'>Azure DevOps, Terraform, Docker, Kubernetes, Prometheus, Grafana, Jenkins</span>"
+      ]
+    },
+    {
+      "Tab": "AKRUSS-IT",
+      "Title": "Développeur Full-Stack",
+      "Date": "Fév 2022 - Août 2022 | Tunis, Tunisie",
+      "Description": [
+        "Création d'une plateforme d'apprentissage en ligne avec React.js, TypeScript et MongoDB, améliorant considérablement les performances du système et l'expérience utilisateur.",
+        "Analyse des tendances de données à l'aide de Python BI, fournissant des informations exploitables pour affiner les opérations commerciales et soutenir la prise de décision stratégique.",
+        "Déploiement sur AWS EC2 et conteneurisation des applications avec Docker.",
+        "<span class='underline'>AWS EC2, TypeScript, Docker, React.js, Python, Express.js, MongoDB</span>"
+      ]
+    },
+    {
+      "Tab": "Pixemantic",
+      "Title": "Développeur Frontend",
+      "Date": "Juin 2021 - Sep 2021 | Paris, France",
+      "Description": [
+        "Récupération des données depuis le back-end et services RESTFUL à l'aide de Redux.",
+        "<span class='underline'>TypeScript, Redux, Git</span>"
+      ]
+    },
+    {
+      "Tab": "ESPRIT",
+      "Title": "Ecole Supérieure Privée d’Ingénierie et de Technologies",
+      "Date": "Sep 2022 - Présent | Ariana, Tunisie",
+      "Description": [
+        "<span class='underline'>Ingénierie en Infrastructure IT et Technologie Cloud</span>",
+        "Études approfondies des technologies cloud, notamment AWS, Azure, Kubernetes, Docker et Terraform. Focus sur la conception d'infrastructures cloud, la sécurité des réseaux et les méthodologies DevOps. Application de Python, Linux et des pipelines CI/CD dans des projets réels."
+      ]
+    },
+    {
+      "Tab": "ISIMa",
+      "Title": "Institut Supérieur d’Informatique de Mahdia",
+      "Date": "Sep 2019 - Juil 2022 | Mahdia, Tunisie",
+      "Description": [
+        "<span class='underline'>Licence en Business Intelligence</span>",
+        "Exploration de l'analyse de données, de l'apprentissage automatique et de la visualisation des données. Maîtrise de SQL, R, Python et Power BI. Application des processus ETL et développement de solutions BI pour la prise de décisions basée sur les données."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Mes Projets",
+  "FeatureProjects.Label": "Projet Mis en Avant",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Pipeline CI/CD DevOps",
+      "Description": "Un pipeline CI/CD robuste et évolutif construit avec <span class='underline'>Jenkins</span>, <span class='underline'>Terraform</span>, et <span class='underline'>Docker</span>. Intégrant des déploiements automatisés, <span class='underline'>SonarQube</span> pour la qualité du code, <span class='underline'>Trivy</span> pour la sécurité, et une surveillance en temps réel avec <span class='underline'>Prometheus</span> et <span class='underline'>Grafana</span>, ce projet incarne la résilience et l'apprentissage itératif en DevOps.",
+      "imgs": [
+        "assets/images/cicd/CICD2.jpg",
+        "assets/images/cicd/CICD4.jpg",
+        "assets/images/cicd/CICD1.jpg",
+        "assets/images/cicd/CICD3.jpg"
+      ],
+      "Technologies": ["Kubernetes", "‏‏‎ ‎Jenkins", "‏‏‎ ‎Terraform", "‏‏‎ ‎Docker", "‏‏‎ ‎Prometheus", "‏‏‎ ‎Grafana", "‏‏‎ ‎Angular", "‏‏‎ ‎Spring Boot"]
+    },
+    {
+      "Title": "Bee: Plateforme SaaS",
+      "Description": "Bee est une plateforme SaaS autohébergée qui améliore la collaboration et la productivité des équipes pour les entrepreneurs. Construite avec <span class='underline'>Kubernetes</span>, <span class='underline'>Docker</span>, <span class='underline'>Heat</span> et <span class='underline'>OpenStack</span>, elle intègre des pipelines Azure DevOps, une passerelle API sécurisée et <span class='underline'>Terraform</span> pour le provisionnement automatisé, assurant flexibilité, sécurité et fiabilité.",
+      "imgs": [
+        "assets/images/bee/1.png",
+        "assets/images/bee/2.png",
+        "assets/images/bee/3.png",
+        "assets/images/bee/4.png",
+        "assets/images/bee/5.png",
+        "assets/images/bee/6.png",
+        "assets/images/bee/7.jpg",
+        "assets/images/bee/8.jpg",
+        "assets/images/bee/9.png"
+      ],
+      "Technologies": ["Java", "‏‏‎ ‎Kubernetes", "‏‏‎ ‎Docker", "‏‏‎ ‎OpenStack", "‏‏‎ ‎Angular", "‏‏‎ ‎Heat", "‏‏‎ ‎RabbitMQ"]
+    },
+    {
+      "Title": "Pixie: Application d'Apprentissage Multi-Plateforme",
+      "Description": "Pixie est une application multi-plateforme <span class='underline'>(web, bureau et mobile)</span> conçue pour aider les enfants à apprendre, socialiser et jouer. Développée avec <span class='underline'>Symfony, MySQL, Java, JavaFX</span>, et <span class='underline'>Flutter</span>, avec une conception système modélisée en UML. Ce projet met l'accent sur une expérience sûre et engageante pour les jeunes utilisateurs tout en favorisant la collaboration avec des outils comme Git et GitHub.",
+      "imgs": [
+        "assets/images/pixie/1.jpg",
+        "assets/images/pixie/2.png",
+        "assets/images/pixie/3.png",
+        "assets/images/pixie/4.png",
+        "assets/images/pixie/5.jpg",
+        "assets/images/pixie/6.jpg"
+      ],
+      "Technologies": ["Java", "‏‏‎ ‎Symfony", "‏‏‎ ‎Flutter", "‏‏‎ ‎MySQL", "‏‏‎ ‎Github"]
+    },
+    {
+      "Title": "Edukupvisio: Plateforme E-Learning Cloud",
+      "Description": "Edukupvisio est une plateforme d'apprentissage en ligne dynamique développée avec <span class='underline'>React.js</span> pour le front-end et <span class='underline'>Node.js, Express.js</span> pour le back-end, offrant une expérience utilisateur fluide et intuitive. La plateforme a été déployée avec <span class='underline'>AWS EC2</span> et <span class='underline'>Docker</span> pour assurer la scalabilité et fiabilité. De plus, j'ai utilisé des outils BI en <span class='underline'>Python</span> pour analyser les données et fournir des insights exploitables qui ont amélioré les fonctionnalités et la performance globale de la plateforme.",
+      "imgs": [
+        "assets/images/edukupvisio/1.png",
+        "assets/images/edukupvisio/2.png",
+        "assets/images/edukupvisio/3.png",
+        "assets/images/edukupvisio/4.png",
+        "assets/images/edukupvisio/5.png",
+        "assets/images/edukupvisio/6.png"
+      ],
+      "Technologies": ["Docker", "‏‏‎ ‎Amazon EC2", "‏‏‎ ‎Python", "‏‏‎ ‎ReactJS", "‏‏‎ ‎NodeJs", "‏‏‎ ‎ExpressJS", "‏‏‎ ‎MongoDB"]
+    },
+    {
+      "Title": "Omnia: Multi-Plateforme de Charité",
+      "Description": "Omnia est une application web et mobile conçue pour simplifier les dons caritatifs. Développée avec <span class='underline'>Flutter</span> et la pile <span class='underline'>MEAN</span> (MongoDB, Express.js, Angular, Node.js), Omnia permet aux utilisateurs de faire des dons financiers, organiser des événements, donner leur sang et vendre des articles aux enchères au profit de la charité. Hébergée sur <span class='underline'>Azure</span>, elle offre une expérience fluide pour permettre à chacun de contribuer et faire une différence.",
+      "imgs": [
+        "assets/images/omnia/1.png",
+        "assets/images/omnia/2.png",
+        "assets/images/omnia/3.jpg",
+        "assets/images/omnia/4.png",
+        "assets/images/omnia/5.png",
+        "assets/images/omnia/6.png",
+        "assets/images/omnia/7.png"
+      ],
+      "Technologies": ["Azure DevOps", "‏‏‎ ‎Angular", "‏‏‎ ‎NodeJS", "‏‏‎ ‎ExpressJS", "‏‏‎ ‎MongoDB", "‏‏‎ ‎Flutter"]
+    },
+    {
+      "Title": "Win: Découvrir, Connecter et Socialiser",
+      "Description": "Win est une application mobile conçue pour aider les utilisateurs à explorer de nouvelles villes en toute simplicité. Développée avec <span class='underline'>Flutter</span> et alimentée par <span class='underline'>Firebase</span>, Win permet aux utilisateurs de trouver les cafés et restaurants à proximité, tout en se connectant avec d'autres utilisateurs de l'application à proximité. Que vous exploriez un nouvel endroit ou cherchiez à socialiser, Win rend la découverte et l'engagement avec votre environnement simples et agréables.",
+      "imgs": [
+        "assets/images/win/1.png",
+        "assets/images/win/2.png",
+        "assets/images/win/3.png",
+        "assets/images/win/4.png",
+        "assets/images/win/5.png",
+        "assets/images/win/6.png",
+        "assets/images/win/7.png"
+      ],
+      "Technologies": ["Flutter", "‏‏‎ ‎Firebase"]
+    }
+  ],
+
+  "OtherProjects.Title": "Plus de projets",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Auto-guérison et mise à l'échelle prédictive Kubernetes",
+      "Description": "Développement d'un modèle IA avec TensorFlow et Prometheus pour optimiser les ressources Kubernetes. Clusters résilients déployés avec Terraform et RBAC pour assurer performance et fiabilité.",
+      "Technologies": ["Kubernetes", "TensorFlow", "AWS EKS", "Prometheus", "Terraform", "RBAC"]
+    },
+    {
+      "Title": "Configuration de l'infrastructure AWS",
+      "Description": "Conception d'une infrastructure AWS avec VPC, sous-réseaux et mise à l'échelle automatique. Sécurité renforcée grâce aux groupes de sécurité et bastions pour un contrôle d'accès optimal.",
+      "Technologies": ["AWS", "VPC", "Subnets", "NAT Gateway", "ALB", "Auto Scaling", "S3", "Security Groups"]
+    },
+    {
+      "Title": "Application intelligente de Heatmap",
+      "Description": "Création d'une carte thermique IA avec Python et TensorFlow pour visualiser les données. Déploiement optimisé via Kubernetes et Docker, réduisant les coûts et améliorant l'évolutivité.",
+      "Technologies": ["Python", "TensorFlow", "Kubernetes", "Docker", "Jenkins"]
+    }
+  ],
+
+ "Contact.Pretitle": "Et... Maintenant ?",
+  "Contact.Title": "Contactez-moi !",
+  "Contact.Content": "Je serai ravi de vous entendre si vous souhaitez discuter de nouvelles opportunités. Écrivez-moi et je vous répondrai dès que je verrai votre message.",
+  "Contact.Btn": "Contactez-moi"
+}

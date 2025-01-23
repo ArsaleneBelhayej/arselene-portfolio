@@ -1,0 +1,207 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_English_Arselene.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Postitle": "DevOps and Cloud Engineer",
+  "Banner.Description": "I am a <span class='underline'>Cloud and DevOps Engineer</span> with experience designing and deploying scalable cloud solutions, automating <span class='underline'>CI/CD pipelines</span>, and implementing predictive scaling with <span class='underline'>Kubernetes</span> and <span class='underline'>Terraform</span> on <span class='underline'>AWS</span>. I am dedicated to optimizing cloud infrastructures, ensuring security, and improving operational efficiency.",
+  "Banner.ActionBtn": "Get in Touch",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "In my experience as a <span class='underline'>DevOps and Cloud Engineer</span>, I have taken on roles such as <span class='underline'>Cloud Infrastructure Engineer</span>, <span class='underline'>DevSecOps Engineer</span>, and <span class='underline'>Full-Stack Developer</span>. I thrive in building scalable systems, automating processes, and creating solutions that drive efficiency and innovation.",
+"My capabilities include designing secure cloud architectures, optimizing <span class='underline'>CI/CD pipelines</span>, implementing predictive scaling, and developing tools that enhance workflows and system reliability.",
+"I also enjoy working on personal projects, exploring emerging technologies, and expanding my skillset for both hobby and utility.",
+"Technologies I have worked with and trained in, along with the awards I have received, include:"
+  ],
+
+  "Experience.Title": "Experience and Education",
+  "Experience.Jobs": [
+    {
+      "Tab": "SB AI",
+      "Title": "Cloud Infrastructure Engineer",
+      "Date": "June 2024 - Sep 2024 | Zürich, Switzerland",
+      "Description": [
+        "Deployed a cloud-based IDE using AWS Cloud9, Lambda, and API Gateway, which enhanced development workflows.",
+        "Built and maintained CI/CD pipelines with AWS CodePipeline and Jenkins, automating deployments.",
+        "Leveraged Kubernetes and Terraform to build scalable and automated infrastructure.",
+        "Monitored system performance with Prometheus and containerized applications with Docker.",
+        "<span class='underline'> AWS Cloud9, Lambda, API Gateway, Kubernetes, Terraform, Jenkins, Docker, Prometheus</span>"
+      ]
+    },
+    {
+      "Tab": "EmeralDevs",
+      "Title": "Cloud Engineer",
+      "Date": "Sep 2023 - Feb 2024 | Ariana, Tunisia",
+      "Description": [
+        "Improved infrastructure scalability with AWS Auto Scaling and EC2.",
+        "Implemented IAM policies and directed access management, fortifying security measures and streamlining operational workflows.",
+        "Utilized tools like Azure, Kubernetes, Terraform, and Jenkins to automate infrastructure and deployment processes, ensuring stability and scalability.",
+        "<span class='underline'> AWS EC2, S3, Auto Scaling, IAM, Azure, Kubernetes, Docker, Terraform, Jenkins</span>"
+      ]
+    },
+    {
+      "Tab": "DataDoIT",
+      "Title": "DevOps Intern",
+      "Date": "June 2023 - Sep 2023 | Manouba, Tunisia",
+      "Description": [
+        "Developed a fully automated deployment pipeline for a MERN stack application using Azure DevOps and Terraform, reducing manual intervention and deployment time.",
+        "Built a Grafana dashboard for real-time system monitoring and troubleshooting.",
+        "Integrated Docker and Kubernetes for containerized deployments, ensuring consistent application environments and minimal downtime.",
+        "<span class='underline'> Azure DevOps, Terraform, Docker, Kubernetes, Prometheus, Grafana, Jenkins</span>"
+      ]
+    },
+    {
+      "Tab": "AKRUSS-IT",
+      "Title": "Full-Stack Developer",
+      "Date": "Feb 2022 - Aug 2022 | Tunis, Tunisia",
+      "Description": [
+        "Built an e-learning platform with React.js, TypeScript, and MongoDB, significantly improving system performance and enhancing the user experience.",
+        "Conducted data trend analysis using Python BI, providing actionable insights to refine business operations and support strategic decision-making.",
+        "Deployed on AWS EC2 and containerized apps using Docker.",
+        "<span class='underline'> AWS EC2, TypeScript, Docker, React.js, Python, Express.js, MongoDB</span>"
+      ]
+    },
+    {
+      "Tab": "Pixemantic",
+      "Title": "Frontend Developer",
+      "Date": "June 2021 - Sep 2021 | Paris, France",
+      "Description": [
+        "Performed data retrieval from Back-End and RESTFUL services using Redux.",
+         "<span class='underline'>TypeScript, Redux, Git</span>"
+      ]
+    },
+    {
+      "Tab": "ESPRIT",
+      "Title": "Private Higher School of Engineering and Technology",
+      "Date": "Sep 2022 - Present | Ariana, Tunisia",
+      "Description": [
+        "<span class='underline'>Engineering of Science in IT Infrastructure and Cloud Technology</span>",
+        "Studied advanced cloud technologies, including AWS, Azure, Kubernetes, Docker, and Terraform. Focused on cloud infrastructure design, network security, and DevOps methodologies. Applied Python, Linux, and CI/CD pipelines in real-world projects."
+      ]
+    },
+    {
+      "Tab": "ISIMa",
+      "Title": "Higher Institute of Computer Science of Mahdia",
+      "Date": "Sep 2019 - July 2022 | Mahdia, Tunisia",
+      "Description": [
+        "<span class='underline'>Bachelor of Science in Business Intelligence</span>",
+        "Explored data analysis, machine learning, and data visualization. Gained proficiency in SQL, R, Python, and Power BI. Applied ETL processes and developed BI solutions using industry-standard tools for data-driven decision-making."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Highlighted Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "DevOps CI/CD Pipeline",
+      "Description": "A robust and scalable CI/CD pipeline built with <span class='underline'>Jenkins</span>, <span class='underline'>Terraform</span>, and <span class='underline'>Docker</span>. Featuring automated deployments, <span class='underline'>SonarQube</span> for code quality, <span class='underline'>Trivy</span> for security, and real-time monitoring with <span class='underline'>Prometheus</span> and <span class='underline'>Grafana</span>, this project embodies resilience and iterative learning in DevOps.",
+      "imgs": [
+        "assets/images/cicd/CICD2.jpg",
+        "assets/images/cicd/CICD4.jpg",
+        "assets/images/cicd/CICD1.jpg",
+        "assets/images/cicd/CICD3.jpg"
+      ],
+      "Technologies": ["Kubernetes", "‏‏‎ ‎Jenkins", "‏‏‎ ‎Terraform", "‏‏‎ ‎Docker", "‏‏‎ ‎Prometheus",  "‏‏‎ ‎Grafana", "‏‏‎ ‎Angular", "‏‏‎ ‎Spring Boot"]
+    },
+    {
+      "Title": "Bee: SaaS Platform",
+      "Description": "Bee is a self-hosted SaaS platform enhancing team collaboration and productivity for entrepreneurs. Built with <span class='underline'>Kubernetes</span>, <span class='underline'>Docker</span>, <span class='underline'>Heat</span> and <span class='underline'>OpenStack</span>, it features Azure DevOps pipelines, secure <span class='underline'>API Gateway</span>, and <span class='underline'>Terraform</span> for automated provisioning, ensuring flexibility, security, and reliability.",
+      "imgs": [
+        "assets/images/bee/1.png",
+        "assets/images/bee/2.png",
+        "assets/images/bee/3.png",
+        "assets/images/bee/4.png",
+        "assets/images/bee/5.png",
+        "assets/images/bee/6.png",
+        "assets/images/bee/7.jpg",
+        "assets/images/bee/8.jpg",
+        "assets/images/bee/9.png"
+      ],
+      "Technologies": ["Java", "‏‏‎ ‎Kubernetes", "‏‏‎ ‎Docker", "‏‏‎ ‎OpenStack", "‏‏‎ ‎Angular", "‏‏‎ ‎Heat", "‏‏‎ ‎RabbitMQ"]
+    },
+    {
+      "Title": "Pixie: Multi-Platform Learning App",
+      "Description": "Pixie is a multi-platform app <span class='underline'>(web, desktop, and mobile)</span> designed to help children learn, socialize, and play. Built with <span class='underline'>Symfony, MySQL, Java, JavaFX</span>, and <span class='underline'>Flutter</span>, with system design modeled in UML. The project emphasizes a safe, engaging experience for young users while fostering collaboration with tools like Git and GitHub.",
+      "imgs": [
+        "assets/images/pixie/1.jpg",
+        "assets/images/pixie/2.png",
+        "assets/images/pixie/3.png",
+        "assets/images/pixie/4.png",
+        "assets/images/pixie/5.jpg",
+        "assets/images/pixie/6.jpg"
+      ],
+      "Technologies": ["Java", "‏‏‎ ‎Symfony", "‏‏‎ ‎Flutter", "‏‏‎ ‎MySQL", "‏‏‎ ‎Github"]
+    },
+    {
+      "Title": "Edukupvisio: Cloud E-Learning Platform",
+      "Description": "Edukupvisio is a dynamic e-learning platform built using <span class='underline'>React.js</span> for the front end and <span class='underline'>Node.js, Express.js</span> for the backend, providing a seamless and intuitive user experience. The platform was deployed using <span class='underline'>AWS EC2</span> and <span class='underline'>Docker</span> for scalability and reliability. Additionally, I used <span class='underline'>Python BI</span> tools to analyze data and deliver actionable insights that informed feature enhancements and improved the platform’s overall functionality.",
+      "imgs": [
+        "assets/images/edukupvisio/1.png",
+        "assets/images/edukupvisio/2.png",
+        "assets/images/edukupvisio/3.png",
+        "assets/images/edukupvisio/4.png",
+        "assets/images/edukupvisio/5.png",
+        "assets/images/edukupvisio/6.png"
+      ],
+      "Technologies": ["Docker", "‏‏‎ ‎Amazon EC2", "‏‏‎ ‎Python", "‏‏‎ ‎ReactJS", "‏‏‎ ‎NodeJs", "‏‏‎ ‎ExpressJS", "‏‏‎ ‎MongoDB"]
+    },
+    {
+      "Title": "Omnia: Charity Multi-Platform",
+      "Description": "Omnia is a web and mobile app built to simplify charitable giving. Developed with <span class='underline'>Flutter</span> and the <span class='underline'>MEAN stack</span> (MongoDB, Express.js, Angular, Node.js), Omnia allows users to donate money, organize events, donate blood, and auction items with proceeds going to charity. Hosted on <span class='underline'>Azure</span>, it offers a seamless experience for users to contribute and make a difference.",
+      "imgs": [
+        "assets/images/omnia/1.png",
+        "assets/images/omnia/2.png",
+        "assets/images/omnia/3.jpg",
+        "assets/images/omnia/4.png",
+        "assets/images/omnia/5.png",
+        "assets/images/omnia/6.png",
+        "assets/images/omnia/7.png"
+      ],
+      "Technologies": ["Azure DevOps", "‏‏‎ ‎Angular", "‏‏‎ ‎NodeJS", "‏‏‎ ‎ExpressJS", "‏‏‎ ‎MongoDB", "‏‏‎ ‎Flutter"]
+    },
+    {
+      "Title": "Win: Discover, Connect, and Socialize",
+      "Description": "Win is a mobile app designed to help users navigate new cities with ease. Built with <span class='underline'>Flutter</span> and powered by <span class='underline'>Firebase</span>, Win allows users to find the nearest coffee shops and restaurants while also connecting with others nearby who use the app. Whether you're exploring a new place or looking to socialize, Win makes it simple to discover and engage with your surroundings.",
+      "imgs": [
+        "assets/images/win/1.png",
+        "assets/images/win/2.png",
+        "assets/images/win/3.png",
+        "assets/images/win/4.png",
+        "assets/images/win/5.png",
+        "assets/images/win/6.png",
+        "assets/images/win/7.png"
+      ],
+      "Technologies": ["Flutter", "‏‏‎ ‎Firebase"]
+    }
+  ],
+
+  "OtherProjects.Title": "More Projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "AI-Powered Auto-Healing and Predictive Scaling in Kubernetes",
+      "Description": "Developed an AI traffic prediction model with TensorFlow and Prometheus to optimize resource allocation in Kubernetes clusters. Deployed resilient clusters using Terraform and RBAC to ensure continuous reliability.",
+      "Technologies": ["Kubernetes", "TensorFlow", "AWS EKS", "Prometheus", "Terraform", "RBAC"]
+    },
+    {
+      "Title": "AWS Infrastructure Setup",
+      "Description": "Designed a secure and scalable AWS infrastructure using VPC, subnets, and auto-scaling for high-availability applications. Implemented advanced security measures with Security Groups and bastion hosts to ensure controlled access.",
+      "Technologies": ["AWS", "VPC", "Subnets", "NAT Gateway", "ALB", "Auto Scaling", "S3", "Security Groups"]
+    },
+    {
+      "Title": "AI-Powered Heatmap Application",
+      "Description": "Developed an AI-powered heatmap application using Python and TensorFlow for efficient visualization of complex data insights. Streamlined deployment using Kubernetes and Docker, reducing operational overhead and improving scalability.",
+      "Technologies": ["Python", "TensorFlow", "Kubernetes", "Docker", "Jenkins"]
+    }
+  ],
+
+  "Contact.Pretitle": "And... Now?",
+  "Contact.Title": "Get in Touch!",
+  "Contact.Content": "I would be glad to hear from you if you'd like to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
+  "Contact.Btn": "Contact Me"
+}
