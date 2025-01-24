@@ -145,9 +145,9 @@
         "assets/images/edukupvisio/1.png",
         "assets/images/edukupvisio/2.png",
         "assets/images/edukupvisio/3.png",
-        "assets/images/edukupvisio/4.png",
-        "assets/images/edukupvisio/5.png",
-        "assets/images/edukupvisio/6.png"
+
+        "assets/images/edukupvisio/5.png"
+
       ],
       "Technologies": ["Docker", "‏‏‎ ‎Amazon EC2", "‏‏‎ ‎Python", "‏‏‎ ‎ReactJS", "‏‏‎ ‎NodeJs", "‏‏‎ ‎ExpressJS", "‏‏‎ ‎MongoDB"]
     },
@@ -172,10 +172,10 @@
         "assets/images/win/1.png",
         "assets/images/win/2.png",
         "assets/images/win/3.png",
-        "assets/images/win/4.png",
+
         "assets/images/win/5.png",
-        "assets/images/win/6.png",
-        "assets/images/win/7.png"
+        "assets/images/win/6.png"
+
       ],
       "Technologies": ["Flutter", "‏‏‎ ‎Firebase"]
     }
