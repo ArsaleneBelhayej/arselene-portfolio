@@ -25,14 +25,28 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class BannerComponent implements OnInit {
 
-  
-
+  isNameActive = true;
+  isTitleActive = false;
+  audio = new Audio();
   constructor(
     public analyticsService: AnalyticsService
   ) { }
 
-  ngOnInit(): void { 
-  }
-  
+  ngOnInit(): void {
 
-}
+    this.audio.src = 'assets/audio/arselene-belhayej.mp3'; // Update with your file's path
+    this.audio.load();
+
+    setInterval(() => {
+      this.isNameActive = !this.isNameActive;
+      this.isTitleActive = !this.isTitleActive;
+    }, 4000); // Switch every 6 seconds (slightly longer interval)
+  }
+
+ playAudio(): void {
+    this.audio.play();
+  }
+  }
+
+
+

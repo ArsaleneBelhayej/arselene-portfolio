@@ -1,9 +1,8 @@
-
 @import "./../../../../variables.scss";
 
 .banner{
     min-height: 100vh;
-    
+
     .container{
         display: table;
         height: 100vh;
@@ -17,7 +16,6 @@
             }
 
             h1{
-    
                 color: #64ffda;
                 margin: 0 0 20px 3px;
                 font-size: 16px;
@@ -36,12 +34,12 @@
             h2{
                 color: $LightestSlate;
             }
-            h3{  
+            h3{
                 color: $Slate;
             }
 
             .banner-description{
-                margin-bottom: 70px;
+                margin-bottom: 30px;
             }
 
             p{
@@ -49,13 +47,123 @@
             }
 
             .div-btn-banner{
-                height: 43px;
+                height: auto;
+                gap: 10px;
+                display: flex;
+            }
+        }
+    }
+
+    .contact-icons {
+        display: flex;
+        justify-content: center;
+        gap: 20px; // Space between icons
+        color: $Green;
+        margin-top: 10px;
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            // Adjust padding for the button's size
+            padding: 20px 20px;
+
+            border: 2px solid $Green; // Border color of the button
+            border-radius: 4px; // Rounded corners like the button
+            text-decoration: none;
+            color: $Green;
+            font-size: 2rem; // Base font size for the icons
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: $Green;
+                border-color: $Green;
+                background-color: rgba($Green, 0.1);
+                transform: scale(1.05);
+            }
+
+            // Icon size adjustments for LinkedIn and GitHub
+            i {
+                font-size: 2.5rem; // Default size for all icons
+                color: $Green;
             }
         }
 
-       
-    }    
-}
+        // Target LinkedIn Icon for larger size
+        a.icon-linkedin i {
+            font-size: 3rem; // Larger size for LinkedIn icon
+        }
+
+        // Target GitHub Icon for larger size
+        a.icon-github i {
+            font-size: 3rem; // Larger size for GitHub icon
+        }
+    }
+
+    @keyframes gradientAnimationName {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @keyframes gradientAnimationTitle {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .gradient-text-name {
+      background: linear-gradient(90deg, #4635B1, #AEEA94, #FFFBCD);
+      background-size: 300% 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientAnimationName 10s ease-in-out infinite; // Slower animation (10s per cycle)
+      transition: all 2s ease-in-out; // Smooth transition when toggling classes
+    }
+
+    .gradient-text-title {
+      background: linear-gradient(90deg, #ff6a00, #ee0979, #00c6ff); // Original title colors
+      background-size: 300% 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientAnimationTitle 10s ease-in-out infinite; // Slower animation (10s per cycle)
+      transition: all 2s ease-in-out; // Smooth transition when toggling classes
+    }
+
+    .name-container {
+      display: flex;
+      align-items: center; // Align name and button on the same line
+      gap: 10px; // Add space between name and icon
+      margin-bottom: 10px; // Optional: add spacing under the name section
+    }
+
+    .play-audio-btn {
+      background-color: transparent; // No background for the button
+      border: none; // No border
+      padding: 0; // Remove extra padding
+      cursor: pointer;
+      transition: transform 0.3s ease;
+
+      i {
+        font-size: 20px; // Adjust icon size
+        background: linear-gradient(90deg, #4635B1, #AEEA94, #FFFCCA); // Same gradient as the name
+        background-size: 300% 300%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradientAnimationName 10s ease-in-out infinite; // Same animation as the name
+      }
+
+      &:hover {
+        transform: scale(1.2); // Slight zoom effect on hover
+      }
+
+      &:focus {
+        outline: none; // Remove focus outline
+      }
+    }
+
+    }
 
 
 

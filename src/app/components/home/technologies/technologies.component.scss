@@ -28,9 +28,9 @@
   .tool-item {
     display: inline-flex;  // Use inline-flex for adaptive width
     align-items: center;
-    gap: 10px;  // Space between icon and text
+    gap: 14px;  // Space between icon and text
     background-color: #d8080810;  // This applies a semi-transparent background to each tool item
-    padding: 10px 14px;  // Compact padding
+    padding: 14px 18px;  // Compact padding
     border-radius: 0;  // Remove border radius
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);  // Subtle shadow for style
     transition: transform 0.3s ease, box-shadow 0.3s ease;
