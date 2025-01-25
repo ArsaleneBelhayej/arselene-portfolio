@@ -1,0 +1,129 @@
+@import "./../../../../variables.scss";
+
+.reference {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+
+  .reference-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: $LightestSlate;
+    margin: auto;
+    width: fit-content;
+  }
+
+  .reference-pre-title {
+    color: $Green;
+    font-size: 16px;
+    font-family: $CodeFont;
+    margin-bottom: 20px;
+  }
+
+  .reference-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px; // Space between cards
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .reference-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px; // Reduced padding
+    border: 1px solid $Green;
+    border-radius: 8px;
+    background-color: rgba($LightestSlate, 0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; // Reduced width
+    min-height: 280px; // Shortened height
+
+    .reference-image {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid $Green;
+      margin-bottom: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .reference-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: $LightestSlate;
+      margin-bottom: 5px;
+    }
+
+    .reference-title {
+      font-size: 13px;
+      color: $Green;
+      margin-bottom: 5px;
+    }
+
+    .reference-company {
+      font-size: 13px;
+      color: $LightestSlate;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    .reference-description {
+      font-size: 12px;
+      color: $LightestSlate;
+      margin-bottom: 15px;
+    }
+
+    .reference-icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px; // Space between icons
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 12px; // Rectangle dimensions
+        border: 1px solid $Green; // Match border color
+        border-radius: 4px; // Rectangle with slightly rounded edges
+        text-decoration: none;
+        color: $Green;
+        font-size: 0.9rem; // Icon size
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: $Green;
+          background-color: rgba($Green, 0.1); // Background effect on hover
+          transform: scale(1.05);
+        }
+
+        i {
+          font-size: 0.9rem; // Adjust icon size
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .reference-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .reference-card {
+    width: 100%;
+    min-height: unset; // Remove min-height for smaller screens
+  }
+}
+
+
+

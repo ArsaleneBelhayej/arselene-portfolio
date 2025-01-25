@@ -3,13 +3,18 @@
   "Header.Item2": "Expérience",
   "Header.Item3": "Projets",
   "Header.Item4": "Contact",
+  "Header.Item5": "Référence",
+  "Header.Item6": "Technologies",
   "Header.cvBtn": "CV",
   "Header.cvName": "CV_Francais_Arselene.pdf",
+
+  "Technologies.Title": "Outils et Technologies",
 
   "Banner.Pretitle": "Salut ! Je m'appelle",
   "Banner.Postitle": "Ingénieur DevOps et Cloud",
   "Banner.Description": "Je suis un <span class='underline'>Ingénieur DevOps et Cloud</span> fort d'une expérience dans la conception et le déploiement de solutions cloud évolutives, l'automatisation des <span class='underline'>pipelines CI/CD</span> et la mise en œuvre de la mise à l'échelle prédictive avec <span class='underline'>Kubernetes</span> et <span class='underline'>Terraform</span> sur <span class='underline'>AWS</span>. Je suis dédié à l'optimisation des infrastructures cloud, à la sécurité et à l'amélioration de l'efficacité opérationnelle.",
   "Banner.ActionBtn": "Contactez-moi",
+
 
   "AboutMe.Title": "À Propos de Moi",
   "AboutMe.Paragraphs": [
@@ -199,6 +204,13 @@
       "Technologies": ["Python", "TensorFlow", "Kubernetes", "Docker", "Jenkins"]
     }
   ],
+  "Reference": {
+    "Pretitle": "Référence",
+    "Title": "Références professionnelles",
+    "Content": "Voici des professionnels qui peuvent fournir des informations précieuses sur mes compétences et mon expérience.",
+    "Job":"Directeur des Opérations & Chef de Produit en IA",
+    "Job1":"Enseignant-chercheur en Informatique"
+  },
 
  "Contact.Pretitle": "Et... Maintenant ?",
   "Contact.Title": "Contactez-moi !",

@@ -3,7 +3,7 @@
     <div class="section-box">
       <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
         <h3 class="contact-pre-title big-subtitle">
-          05. {{ "Contact.Pretitle" | translate }}
+          06. {{ "Contact.Pretitle" | translate }}
         </h3>
         <h4 class="e-font contact-title big-title">
           {{ "Contact.Title" | translate }}
@@ -12,22 +12,30 @@
       <p data-aos="fade-up" data-aos-duration="1000">
         {{ "Contact.Content" | translate }}
       </p>
-      <div class="mt-5">
+      <div class="contact-icons" data-aos="fade-up" data-aos-duration="1000">
         <a
-          (click)="
-            analyticsService.sendAnalyticEvent(
-              'click_send_mail',
-              'contact',
-              'email'
-            )
-          "
+          href="https://www.linkedin.com/in/arselenebelhayej/"
+          target="_blank"
+          title="LinkedIn"
+          aria-label="LinkedIn"
+          class="icon-wrapper">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/ArsaleneBelhayej"
+          target="_blank"
+          title="GitHub"
+          aria-label="GitHub"
+          class="icon-wrapper">
+          <i class="fab fa-github"></i>
+        </a>
+        <a
           href="mailto:arselenebelhayej1@gmail.com"
           target="_blank"
-          class="main-btn"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          {{ "Contact.Btn" | translate }}
+          title="Email"
+          aria-label="Email"
+          class="icon-wrapper">
+          <i class="fas fa-envelope"></i>
         </a>
       </div>
     </div>

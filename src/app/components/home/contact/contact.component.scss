@@ -59,11 +59,44 @@
         justify-content: center;
         text-align: center;
     }
+    .contact-icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px; // Space between icons
+      color: $Green;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px; // Adjust padding for rectangle shape
+        border: 2px solid $Green; // Match the button's border color
+        border-radius: 4px; // Slightly rounded corners like the button
+        text-decoration: none;
+        color: $Green; // Icon color
+        font-size: 1.5rem; // Icon size
+        transition: all 0.3s ease;
+
+
+        &:hover {
+          color: $Green; // Hover icon color
+          border-color: $Green; // Hover border color
+          background-color: rgba($Green, 0.1); // Slight background effect
+          transform: scale(1.05); // Slight zoom effect
+        }
+
+        i {
+          display: flex;
+          align-items: center;
+          color: $Green;
+          justify-content: center;
+        }
+      }
+    }
 
 }
 
 @media (max-width: 768px){
-    
+
     .contact{
         height: 100vh;
         padding: 0 !important;

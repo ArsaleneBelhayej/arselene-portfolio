@@ -1,0 +1,59 @@
+@import "./../../../../variables.scss";
+
+
+.technologies {
+  background-color: #0a192f;  // Set the background to black
+
+  .technologies-title {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #d8080810;  // This seems to be a semi-transparent color, keep or change as needed.
+
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: $LightestSlate;  // Ensure this color is defined in your variables.scss
+    }
+  }
+
+  .tools-grid {
+    display: flex;  // Use flex to allow natural sizing
+    flex-wrap: wrap;  // Wrap items to the next line if needed
+    gap: 12px;  // Spacing between items
+    justify-content: left;
+    align-items: center;
+    padding: 0 16px;
+  }
+
+  .tool-item {
+    display: inline-flex;  // Use inline-flex for adaptive width
+    align-items: center;
+    gap: 10px;  // Space between icon and text
+    background-color: #d8080810;  // This applies a semi-transparent background to each tool item
+    padding: 10px 14px;  // Compact padding
+    border-radius: 0;  // Remove border radius
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);  // Subtle shadow for style
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;  // Remove link underline
+    white-space: nowrap;  // Prevent text wrapping
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+    .tool-logo {
+      width: 30px;  // Smaller width for icons
+      height: 30px;  // Smaller height for icons
+      object-fit: contain;  // Prevent distortion
+    }
+
+    .tool-name {
+      font-size: 14px;  // Font size for text
+      font-weight: 500;
+      color: #fff;  // Text color
+    }
+  }
+}

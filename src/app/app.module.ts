@@ -39,7 +39,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     NgxImageZoomModule,
     HomeModule,
     GeneralModule,
-
     // AnimateOnScrollModule.forRoot(),
     BrowserModule,
     AppRoutingModule,

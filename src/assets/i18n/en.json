@@ -3,6 +3,8 @@
   "Header.Item2": "Experience",
   "Header.Item3": "Projects",
   "Header.Item4": "Contact",
+  "Header.Item6": "Technologies",
+  "Header.Item5": "Reference",
   "Header.cvBtn": "Resume",
   "Header.cvName": "CV_English_Arselene.pdf",
 
@@ -10,6 +12,7 @@
   "Banner.Postitle": "DevOps and Cloud Engineer",
   "Banner.Description": "I am a <span class='underline'>Cloud and DevOps Engineer</span> with experience designing and deploying scalable cloud solutions, automating <span class='underline'>CI/CD pipelines</span>, and implementing predictive scaling with <span class='underline'>Kubernetes</span> and <span class='underline'>Terraform</span> on <span class='underline'>AWS</span>. I am dedicated to optimizing cloud infrastructures, ensuring security, and improving operational efficiency.",
   "Banner.ActionBtn": "Get in Touch",
+  "Technologies.Title": "Tools and Technologies",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
@@ -200,8 +203,17 @@
     }
   ],
 
+
+    "Reference": {
+      "Pretitle": "References",
+      "Title": "Professional References",
+      "Content": "Below are professionals who can provide valuable insights into my skills and experience.",
+      "Job":"COO & AI Product Manager",
+      "Job1":"Research Professor in Computer Science"
+    },
+
   "Contact.Pretitle": "And... Now?",
   "Contact.Title": "Get in Touch!",
   "Contact.Content": "I would be glad to hear from you if you'd like to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
-  "Contact.Btn": "Contact Me"
-}
+  "Contact.Btn": "Contact Me"}
+
