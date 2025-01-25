@@ -82,19 +82,24 @@
                                 <span>02. </span> {{"Header.Item2" | translate}}
                             </a>
                         </li>
-                        <li (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
-                          <a (click)='scroll("proyects")'>
-                              <span>03. </span> {{"Header.Item3" | translate}}
+                        <li (click)='analyticsService.sendAnalyticEvent("click_technologies", "menu", "click")'>
+                          <a (click)='scroll("technologies")'>
+                              <span>03. </span> {{"Header.Item6" | translate}}
                           </a>
                       </li>
-                      <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-                        <a (click)='scroll("proyects")'>
-                            <span>04. </span> {{"Header.Item4" | translate}}
-                        </a>
+                        <li (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
+                          <a (click)='scroll("proyects")'>
+                              <span>04. </span> {{"Header.Item3" | translate}}
+                          </a>
                       </li>
                       <li (click)='analyticsService.sendAnalyticEvent("click_reference", "menu", "click")'>
-                        <a (click)='scroll("proyects")'>
-                            <span>04. </span> {{"Header.Item5" | translate}}
+                        <a (click)='scroll("reference")'>
+                            <span>05. </span> {{"Header.Item5" | translate}}
+                        </a>
+                      </li>
+                      <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
+                        <a (click)='scroll("contact")'>
+                            <span>06. </span> {{"Header.Item4" | translate}}
                         </a>
                       </li>
                       <li>
