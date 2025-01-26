@@ -65,7 +65,7 @@ footer{
         font-family: $CodeFont;
         font-size: 12px;
         line-height: 1;
-    
+
         position: absolute;
         margin: auto;
         left: 0;
@@ -87,4 +87,22 @@ footer{
             }
         }
     }
+    /* Default Theme */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Light Theme */
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
 }

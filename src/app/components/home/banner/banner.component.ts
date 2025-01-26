@@ -34,7 +34,7 @@ export class BannerComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.audio.src = 'assets/audio/arselene-belhayej.mp3'; // Update with your file's path
+    this.audio.src = 'assets/audio/name.mp3'; // Update with your file's path
     this.audio.load();
 
     setInterval(() => {

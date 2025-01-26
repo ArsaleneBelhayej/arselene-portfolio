@@ -10,6 +10,7 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class ProyectsComponent implements OnInit {
   @ViewChild('magnifierLens', { static: false }) magnifierLens: ElementRef;
   @ViewChild('imgContainer', { static: false }) imgContainer: ElementRef;
+  @ViewChild('modalImage', { static: false }) modalImage!: ElementRef;
   projects = [];
 
   customOptions: OwlOptions = {
@@ -30,8 +31,54 @@ export class ProyectsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    this.closeModal();
 
   }
+  addMagnifier() {
+    const image = this.modalImage.nativeElement;
+    const lens = this.magnifierLens.nativeElement;
+
+    const zoom = 2; // Magnification level
+
+    lens.style.backgroundImage = `url('${image.src}')`;
+    lens.style.backgroundSize = `${image.width * zoom}px ${image.height * zoom}px`;
+
+    const moveLens = (event: MouseEvent) => {
+      const bounds = image.getBoundingClientRect();
+
+      // Get cursor position relative to the image
+      let x = event.pageX - bounds.left - window.pageXOffset;
+      let y = event.pageY - bounds.top - window.pageYOffset;
+
+      // Prevent the lens from going outside the image
+      x = Math.max(0, Math.min(x, image.width));
+      y = Math.max(0, Math.min(y, image.height));
+
+      lens.style.left = `${x - lens.offsetWidth / 2}px`;
+      lens.style.top = `${y - lens.offsetHeight / 2}px`;
+
+      lens.style.backgroundPosition = `-${x * zoom - lens.offsetWidth / 2}px -${y * zoom - lens.offsetHeight / 2}px`;
+    };
+
+    // Add event listeners
+    image.addEventListener('mousemove', moveLens);
+    lens.addEventListener('mousemove', moveLens);
+    image.addEventListener('mouseleave', () => {
+      lens.style.display = 'none';
+    });
+    lens.addEventListener('mouseleave', () => {
+      lens.style.display = 'none';
+    });
+
+    // Show the lens on hover
+    image.addEventListener('mouseenter', () => {
+      lens.style.display = 'block';
+    });
+    lens.addEventListener('mouseenter', () => {
+      lens.style.display = 'block';
+    });
+  }
+
 
 
   openModal(imageSrc: string): void {
@@ -61,15 +108,22 @@ export class ProyectsComponent implements OnInit {
     }
   }
 
-  closeModal(): void {
-    const modal = document.getElementById('imageModal') as HTMLElement;
-    const modalImage = document.getElementById('modalImage') as HTMLImageElement;
-
-    if (modal && modalImage) {
-      modal.style.display = 'none';
-      modalImage.src = ''; // Clear the image source
+  closeOnOutsideClick(event: MouseEvent): void {
+    const modalContent = (event.target as HTMLElement).closest('.modal-content-wrapper');
+    if (!modalContent) {
+      this.closeModal();
     }
   }
+
+
+  closeModal(): void {
+    const modal = document.getElementById('imageModal') as HTMLElement;
+
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  }
+
   @HostListener('document:keydown.escape', ['$event'])
   handleEscapeKey(event: KeyboardEvent): void {
     const modal = document.getElementById('imageModal') as HTMLElement;

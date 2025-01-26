@@ -1,4 +1,4 @@
-<div id="imageModal" class="modal">
+<div id="imageModal" class="modal" (click)="closeOnOutsideClick($event)">
   <div class="modal-content-wrapper">
     <button class="close-btn" (click)="closeModal()">
       <i class="fas fa-times"></i>
@@ -6,6 +6,7 @@
     <img id="modalImage" class="modal-image" alt="Modal Image" />
   </div>
 </div>
+
 
 
 

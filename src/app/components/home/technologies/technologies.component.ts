@@ -142,7 +142,7 @@ export class TechnologiesComponent implements OnInit {
     {
       id: "1009",
       name: "Helm",
-      logo: "https://helm.sh/img/helm.svg",
+      logo: "assets/images/tech/helm.svg",
       link: "https://helm.sh/",
       tab: "devops",
     },
