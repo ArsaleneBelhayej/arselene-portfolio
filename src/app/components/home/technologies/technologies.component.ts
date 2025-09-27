@@ -127,9 +127,9 @@ export class TechnologiesComponent implements OnInit {
     },
     {
       id: "1007",
-      name: "Puppet",
-      logo: "assets/images/tech/puppet.svg",
-      link: "https://puppet.com/",
+      name: "Kafka",
+      logo: "assets/images/tech/kafkaa.png",
+      link: "https://kafka.apache.org/",
       tab: "devops",
     },
     {
@@ -146,28 +146,30 @@ export class TechnologiesComponent implements OnInit {
       link: "https://helm.sh/",
       tab: "devops",
     },
+
     {
       id: "3003",  // Unique ID for Flutter
-      name: "Flutter",
-      logo: "assets/images/tech/flutter.svg",  // Flutter's logo URL
-      link: "https://flutter.dev/",  // Official Flutter website
+      name: "FastAPI",
+      logo: "assets/images/tech/fastapi.svg",  // Flutter's logo URL
+      link: "https://fastapi.tiangolo.com/",  // Official Flutter website
       tab: "web",  // You can adjust this tab if you want Flutter in another category
-      color:"#42a5f5",
+      color:"#28aba0ff",
     },
+
     {
       id: "1010",
-      name: "Splunk",
-      logo: "assets/images/tech/splunk.svg",
-      link: "https://www.splunk.com/",
+      name: "PostgreSQL",
+      logo: "assets/images/tech/postgresql.svg",
+      link: "https://www.postgresql.org/",
       tab: "devops",
     },
 
     // Miscellaneous Tools
     {
       id: "2001",
-      name: ".NET",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
-      link: "https://dotnet.microsoft.com/",
+      name: "Nexus Repository",
+      logo: "assets/images/tech/nexus.png",
+      link: "https://www.sonatype.com/products/sonatype-nexus-repository",
       tab: "misc",
     },
     {
@@ -209,12 +211,12 @@ export class TechnologiesComponent implements OnInit {
 
     },
     {
-      id: "3002-2",
-      name: "Express.js",
-      logo: "assets/images/tech/express.svg",  // Express.js logo (PNG available, SVG is not official)
-      link: "https://expressjs.com/",
-      tab: "web",
-      color: "#f7df1e",
+      id: "3003",  // Unique ID for Flutter
+      name: "Spring Boot",
+      logo: "assets/images/tech/springboot.png",  // Flutter's logo URL
+      link: "https://spring.io/projects/spring-boot/",  // Official Flutter website
+      tab: "web",  // You can adjust this tab if you want Flutter in another category
+      color:"#6db33f",
     },
     {
       id: "3002-1",

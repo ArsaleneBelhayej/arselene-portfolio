@@ -12,7 +12,7 @@
 
   "Banner.Pretitle": "Salut ! Je m'appelle",
   "Banner.Postitle": "Ingénieur DevOps et Cloud",
-  "Banner.Description": "Je suis un <span class='underline'>Ingénieur DevOps et Cloud</span> fort d'une expérience dans la conception et le déploiement de solutions cloud évolutives, l'automatisation des <span class='underline'>pipelines CI/CD</span> et la mise en œuvre de la mise à l'échelle prédictive avec <span class='underline'>Kubernetes</span> et <span class='underline'>Terraform</span> sur <span class='underline'>AWS</span>. Je suis dédié à l'optimisation des infrastructures cloud, à la sécurité et à l'amélioration de l'efficacité opérationnelle.",
+  "Banner.Description": "Je suis un <span class='underline'>Ingénieur DevOps et Cloud</span> fort d'une expérience dans la conception et le déploiement de solutions cloud évolutives, l'automatisation des <span class='underline'>pipelines CI/CD</span> et la mise en œuvre de la mise à l'échelle prédictive avec <span class='underline'>Kubernetes</span> et <span class='underline'>Terraform</span> sur <span class='underline'>AWS et Azure</span>. Je suis dédié à l'optimisation des infrastructures cloud, à la sécurité et à l'amélioration de l'efficacité opérationnelle.",
   "Banner.ActionBtn": "Contactez-moi",
 
 
@@ -26,6 +26,19 @@
 
   "Experience.Title": "Expérience et Éducation",
   "Experience.Jobs": [
+    {
+  "Tab": "IT SERV",
+  "Title": "Ingénieur DevOps & Développeur",
+  "Date": "Fév 2025 - Août 2025 | Tunis, Tunisie",
+  "Description": [
+    "Conception et mise en œuvre d'une plateforme de fitness basée sur une architecture microservices avec des fonctionnalités IA (intégration TinyLlama).",
+    "Automatisation des workflows CI/CD avec Jenkins : construction, tests, analyse et déploiement sur Kubernetes.",
+    "Mise en place et gestion d’un cluster Kubernetes pour une orchestration de services évolutive, résiliente et automatisée.",
+    "Intégration du monitoring et des alertes avec Prometheus et Grafana, accompagnée d'une solution de logs centralisée via la stack ELK.",
+    "Ajustement fin du modèle TinyLlama 1.1B en tant qu’assistant virtuel de la plateforme.",
+    "<span class='underline'>Spring Boot, Angular, Kafka, Docker, Jenkins, Kubernetes, SonarQube, Prometheus, Stack ELK</span>"
+  ]
+},
     {
       "Tab": "SB AI",
       "Title": "Ingénieur Infrastructure Cloud",
@@ -103,6 +116,27 @@
   "FeatureProjects.Title": "Mes Projets",
   "FeatureProjects.Label": "Projet Mis en Avant",
   "FeatureProjects.Projects": [
+    {
+  "Title": "LeanAI, Plateforme de Fitness Automatisée",
+  "Description": "Une plateforme intelligente de gestion fitness combinant une <span class='underline'>architecture microservices</span> moderne et des fonctionnalités IA avancées. La solution est entièrement containerisée et déployée sur <span class='underline'>Kubernetes</span>, avec des pipelines CI/CD automatisés. L’observabilité est assurée avec <span class='underline'>Prometheus, Grafana</span>, et la <span class='underline'>stack ELK</span> pour une centralisation des logs. LeanAI illustre des pratiques DevOps avancées, une conception cloud-native et l’intégration d’une IA temps réel avec des mesures de sécurité complètes pour offrir une solution fitness innovante et scalable.",
+  "imgs": [
+    "assets/images/leanai/1.png",
+    "assets/images/leanai/2.png",
+    "assets/images/leanai/2.1.png",
+    "assets/images/leanai/3.png",
+    "assets/images/leanai/4.png",
+    "assets/images/leanai/5.png",
+    "assets/images/leanai/6.jpg",
+    "assets/images/leanai/7.png",
+    "assets/images/leanai/8.png",
+    "assets/images/leanai/8.1.png",
+    "assets/images/leanai/9.png",
+    "assets/images/leanai/10.png",
+    "assets/images/leanai/11.png",
+    "assets/images/leanai/12.png"
+  ],
+  "Technologies": ["Kubernetes", "‏‏‎ ‎Jenkins", "‏‏‎ ‎Spring Boot", "‏‏‎ ‎Docker", "‏‏‎ ‎Prometheus",  "‏‏‎ Keycloak", "‏‏‎ ‎Angular", "‏‏‎ ELK Stack", "‏‏‎ FastAPI", "‏‏‎ ‎Python"]
+    },
     {
       "Title": "Pipeline CI/CD DevOps",
       "Description": "Un pipeline CI/CD robuste et évolutif construit avec <span class='underline'>Jenkins</span>, <span class='underline'>Terraform</span>, et <span class='underline'>Docker</span>. Intégrant des déploiements automatisés, <span class='underline'>SonarQube</span> pour la qualité du code, <span class='underline'>Trivy</span> pour la sécurité, et une surveillance en temps réel avec <span class='underline'>Prometheus</span> et <span class='underline'>Grafana</span>, ce projet incarne la résilience et l'apprentissage itératif en DevOps.",

@@ -10,13 +10,13 @@
 
   "Banner.Pretitle": "Hello! My name is",
   "Banner.Postitle": "DevOps and Cloud Engineer",
-  "Banner.Description": "I am a <span class='underline'>Cloud and DevOps Engineer</span> with experience designing and deploying scalable cloud solutions, automating <span class='underline'>CI/CD pipelines</span>, and implementing predictive scaling with <span class='underline'>Kubernetes</span> and <span class='underline'>Terraform</span> on <span class='underline'>AWS</span>. I am dedicated to optimizing cloud infrastructures, ensuring security, and improving operational efficiency.",
+  "Banner.Description": "I am a <span class='underline'>Cloud and DevOps Engineer</span> with experience designing and deploying scalable cloud solutions, automating <span class='underline'>CI/CD pipelines</span>, and implementing predictive scaling with <span class='underline'>Kubernetes</span> and <span class='underline'>Terraform</span> on <span class='underline'>AWS and Azure</span>. I am dedicated to optimizing cloud infrastructures, ensuring security, and improving operational efficiency.",
   "Banner.ActionBtn": "Get in Touch",
   "Technologies.Title": "Tools and Technologies",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "In my experience as a <span class='underline'>DevOps and Cloud Engineer</span>, I have taken on roles such as <span class='underline'>Cloud Infrastructure Engineer</span>, <span class='underline'>DevSecOps Engineer</span>, and <span class='underline'>Full-Stack Developer</span>. I thrive in building scalable systems, automating processes, and creating solutions that drive efficiency and innovation.",
+    "In my experience within the Information Technology world, I have taken on roles such as <span class='underline'>Cloud Infrastructure Engineer</span>, <span class='underline'>DevSecOps Engineer</span>, and <span class='underline'>Full-Stack Developer</span>. I thrive in building scalable systems, automating processes, and creating solutions that drive efficiency and innovation.",
 "My capabilities include designing secure cloud architectures, optimizing <span class='underline'>CI/CD pipelines</span>, implementing predictive scaling, and developing tools that enhance workflows and system reliability.",
 "I also enjoy working on personal projects, exploring emerging technologies, and expanding my skillset for both hobby and utility.",
 "Technologies I have worked with and trained in, along with the awards I have received, include:"
@@ -24,6 +24,19 @@
 
   "Experience.Title": "Experience and Education",
   "Experience.Jobs": [
+    {
+      "Tab": "IT SERV",
+      "Title": "DevOps Engineer & Developer",
+      "Date": "Feb 2025 - Aug 2025 | Tunis, Tunisia",
+      "Description": [
+        "Designed and implemented a microservices-based fitness platform with AI-powered features (TinyLlama integration)",
+        "Automated CI/CD workflows with Jenkins: build, test, scan, and deploy to Kubernetes.",
+        "Built and managed a Kubernetes cluster for scalable, resilient, and automated service orchestration.",
+        "Integrated monitoring and alerting with Prometheus and Grafana with a centralized logging system using the ELK stack",
+        "Fined-tuned TinyLlama 1.1B Model as a virtual assistant for the platform",
+        "<span class='underline'> Spring Boot, Angular, Kafka, Docker, Jenkins, Kubernetes, SonarQube, Prometheus, ELK Stack</span>"
+      ]
+    },
     {
       "Tab": "SB AI",
       "Title": "Cloud Infrastructure Engineer",
@@ -49,7 +62,7 @@
     },
     {
       "Tab": "DataDoIT",
-      "Title": "DevOps Intern",
+      "Title": "DevOps Engineering Intern",
       "Date": "June 2023 - Sep 2023 | Manouba, Tunisia",
       "Description": [
         "Developed a fully automated deployment pipeline for a MERN stack application using Azure DevOps and Terraform, reducing manual intervention and deployment time.",
@@ -102,6 +115,27 @@
   "FeatureProjects.Label": "Highlighted Project",
   "FeatureProjects.Projects": [
     {
+      "Title": "LeanAI, Automated Fitness Platform",
+      "Description": "An intelligent fitness platform that combines modern <span class='underline'>Microservices architecture</span> with AI-powered features. The platform was fully containerized and deployed on <span class='underline'>Kubernetes</span>, with automated CI/CD pipelines. Observability was achieved with <span class='underline'>Prometheus, Grafana</span>, <span class='underline'>ELK stack</span> for centralized logging. LeanAI demonstrates advanced DevOps practices, cloud-native design, and the integration of real-time AI with full on security measures to deliver a scalable and innovative fitness solution.",
+      "imgs": [
+        "assets/images/leanai/1.png",
+        "assets/images/leanai/2.png",
+        "assets/images/leanai/2.1.png",
+        "assets/images/leanai/3.png",
+        "assets/images/leanai/4.png",
+        "assets/images/leanai/5.png",
+        "assets/images/leanai/6.jpg",
+        "assets/images/leanai/7.png",
+        "assets/images/leanai/8.png",
+        "assets/images/leanai/8.1.png",
+        "assets/images/leanai/9.png",
+        "assets/images/leanai/10.png",
+        "assets/images/leanai/11.png",
+        "assets/images/leanai/12.png"
+      ],
+      "Technologies": ["Kubernetes", "‏‏‎ ‎Jenkins", "‏‏‎ ‎Spring Boot", "‏‏‎ ‎Docker", "‏‏‎ ‎Prometheus",  "‏‏‎ Keycloak", "‏‏‎ ‎Angular", "‏‏‎ ELK Stack", "‏‏‎ FastAPI", "‏‏‎ ‎Python"]
+    },
+    {
       "Title": "DevOps CI/CD Pipeline",
       "Description": "A robust and scalable CI/CD pipeline built with <span class='underline'>Jenkins</span>, <span class='underline'>Terraform</span>, and <span class='underline'>Docker</span>. Featuring automated deployments, <span class='underline'>SonarQube</span> for code quality, <span class='underline'>Trivy</span> for security, and real-time monitoring with <span class='underline'>Prometheus</span> and <span class='underline'>Grafana</span>, this project embodies resilience and iterative learning in DevOps.",
       "imgs": [
@@ -114,7 +148,7 @@
     },
     {
       "Title": "Bee: SaaS Platform",
-      "Description": "Bee is a self-hosted SaaS platform enhancing team collaboration and productivity for entrepreneurs. Built with <span class='underline'>Kubernetes</span>, <span class='underline'>Docker</span>, <span class='underline'>Heat</span> and <span class='underline'>OpenStack</span>, it features Azure DevOps pipelines, secure <span class='underline'>API Gateway</span>, and <span class='underline'>Terraform</span> for automated provisioning, ensuring flexibility, security, and reliability.",
+      "Description": "SaaS platform enhancing team collaboration and productivity for entrepreneurs. Built with <span class='underline'>Kubernetes</span>, <span class='underline'>Docker</span>, <span class='underline'>Heat</span> and <span class='underline'>OpenStack</span>, it features Azure DevOps pipelines, secure <span class='underline'>API Gateway</span>, and <span class='underline'>Terraform</span> for automated provisioning, ensuring flexibility, security, and reliability.",
       "imgs": [
         "assets/images/bee/1.png",
         "assets/images/bee/2.png",
@@ -213,7 +247,7 @@
     },
 
   "Contact.Pretitle": "And... Now?",
-  "Contact.Title": "Get in Touch!",
+  "Contact.Title": "Get in Touch.",
   "Contact.Content": "I would be glad to hear from you if you'd like to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
   "Contact.Btn": "Contact Me"}
 
