@@ -12,6 +12,14 @@ footer{
         background-color: $LightSlate;
     }
 
+    .footer-left-bar img.icon-svg,
+.footer-left-bar svg.icon-svg {
+  width: 19px;   /* same as .footer-left-bar i { font-size: 19px } */
+  height: 19px;
+  display: inline-block;
+  vertical-align: -.125em; /* align baseline like FA */
+}
+
     .footer-left-bar li, .footer-right-bar li{
         list-style: none;
     }

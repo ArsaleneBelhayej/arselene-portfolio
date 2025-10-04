@@ -27,10 +27,10 @@ export class AppComponent implements OnInit{
     this.languageService.initLanguage()
 
 
-    this.titleService.setTitle( "Arselene Belhayej | DevOps Engineer" );
+    this.titleService.setTitle( "Arselene Belhayej | Software Engineer" );
 
     this.metaService.addTags([
-      {name: 'keywords', content: 'DevOps, Cloud, engineer'},
+      {name: 'keywords', content: 'Software, DevOps, Cloud, engineer'},
       {name: 'description', content: 'Con 4 años de experiencia desarrollando sistemas, interfaces, bots y soluciones tecnológicas  para hacer de la web un lugar mejor. En mi trabajo me gusta liderar, proponer y ejecutar ideas, escribir y refactorizar código limpio, reutilizable y escalable.'},
     ]);
 

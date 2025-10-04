@@ -7,13 +7,26 @@
                 </a>
             </li>
             <li>
-                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/arselenebelhayej/" target='_blank'>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "linkedin")' href="https://www.linkedin.com/in/arselenebelhayej/" target='_blank'>
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </li>
+  <li>
+  <a
+    (click)="analyticsService.sendAnalyticEvent('click_bento', 'footer', 'bento')"
+    href="https://bento.me/arselene"
+    target="_blank"
+    rel="noopener"
+    aria-label="Bento profile"
+    title="Bento"
+    class="icon-link"
+  >
+    <img src="assets/images/bento.svg" alt="Bento" class="icon-svg" />
+  </a>
+</li>
         </ul>
         <div class="footer-right-bar d-none d-md-block">
-            <a>Arselene Belhayej Portfolio </a>
+            <a>Arselene Belhayej Portfolio</a>
         </div>
     </div>
 

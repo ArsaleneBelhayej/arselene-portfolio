@@ -116,12 +116,15 @@
 @media (max-width: 768px) {
   .reference-cards {
     flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
 
   .reference-card {
     width: 100%;
-    min-height: unset; // Remove min-height for smaller screens
+    max-width: 320px;
+    min-height: unset;
+    margin: 0 auto;
   }
 }
 

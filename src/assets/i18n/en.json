@@ -9,15 +9,15 @@
   "Header.cvName": "CV_English_Arselene.pdf",
 
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Postitle": "DevOps and Cloud Engineer",
-  "Banner.Description": "I am a <span class='underline'>Cloud and DevOps Engineer</span> with experience designing and deploying scalable cloud solutions, automating <span class='underline'>CI/CD pipelines</span>, and implementing predictive scaling with <span class='underline'>Kubernetes</span> and <span class='underline'>Terraform</span> on <span class='underline'>AWS and Azure</span>. I am dedicated to optimizing cloud infrastructures, ensuring security, and improving operational efficiency.",
+  "Banner.Postitle": "Software Engineer",
+  "Banner.Description": "I am a <span class='underline'>Software Engineer</span> with experience designing, coding and deploying production-grade features as well as cloud solutions, automating <span class='underline'>CI/CD pipelines</span>, and implementing predictive scaling with <span class='underline'>Kubernetes</span> and <span class='underline'>Terraform</span> on <span class='underline'>AWS and Azure</span>. I am dedicated to optimizing full-stack solutions, cloud infrastructures, ensuring security, and improving operational efficiency.",
   "Banner.ActionBtn": "Get in Touch",
   "Technologies.Title": "Tools and Technologies",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "In my experience within the Information Technology world, I have taken on roles such as <span class='underline'>Cloud Infrastructure Engineer</span>, <span class='underline'>DevSecOps Engineer</span>, and <span class='underline'>Full-Stack Developer</span>. I thrive in building scalable systems, automating processes, and creating solutions that drive efficiency and innovation.",
-"My capabilities include designing secure cloud architectures, optimizing <span class='underline'>CI/CD pipelines</span>, implementing predictive scaling, and developing tools that enhance workflows and system reliability.",
+    "In my experience within the Information Technology world, I have taken on roles such as <span class='underline'>Cloud Engineer</span>, <span class='underline'>Full-Stack Developer</span>, and <span class='underline'>DevSecOps Engineer</span>. I thrive in building applications, scalable systems, automating processes, and creating solutions that drive efficiency, innovation and security.",
+"My capabilities include developing full-stack applications, designing secure cloud architectures, optimizing <span class='underline'>CI/CD pipelines</span>, implementing predictive scaling, and developing tools that enhance workflows and system reliability.",
 "I also enjoy working on personal projects, exploring emerging technologies, and expanding my skillset for both hobby and utility.",
 "Technologies I have worked with and trained in, along with the awards I have received, include:"
   ],
@@ -26,7 +26,7 @@
   "Experience.Jobs": [
     {
       "Tab": "IT SERV",
-      "Title": "DevOps Engineer & Developer",
+      "Title": "Software Engineer",
       "Date": "Feb 2025 - Aug 2025 | Tunis, Tunisia",
       "Description": [
         "Designed and implemented a microservices-based fitness platform with AI-powered features (TinyLlama integration)",
@@ -39,7 +39,7 @@
     },
     {
       "Tab": "SB AI",
-      "Title": "Cloud Infrastructure Engineer",
+      "Title": "DevOps Intern",
       "Date": "June 2024 - Sep 2024 | Zürich, Switzerland",
       "Description": [
         "Deployed a cloud-based IDE using AWS Cloud9, Lambda, and API Gateway, which enhanced development workflows.",
@@ -51,7 +51,7 @@
     },
     {
       "Tab": "EmeralDevs",
-      "Title": "Cloud Engineer",
+      "Title": "Cloud Software Engineer",
       "Date": "Sep 2023 - Feb 2024 | Ariana, Tunisia",
       "Description": [
         "Improved infrastructure scalability with AWS Auto Scaling and EC2.",
@@ -62,7 +62,7 @@
     },
     {
       "Tab": "DataDoIT",
-      "Title": "DevOps Engineering Intern",
+      "Title": "Software Engineer Intern",
       "Date": "June 2023 - Sep 2023 | Manouba, Tunisia",
       "Description": [
         "Developed a fully automated deployment pipeline for a MERN stack application using Azure DevOps and Terraform, reducing manual intervention and deployment time.",
@@ -117,7 +117,7 @@
   "FeatureProjects.Label": "Highlighted Project",
   "FeatureProjects.Projects": [
     {
-      "Title": "LeanAI, Automated Fitness Platform",
+      "Title": "LeanAI: Automated Fitness Platform",
       "Description": "An intelligent fitness platform that combines modern <span class='underline'>Microservices architecture</span> with AI-powered features. The platform was fully containerized and deployed on <span class='underline'>Kubernetes</span>, with automated CI/CD pipelines. Observability was achieved with <span class='underline'>Prometheus, Grafana</span>, <span class='underline'>ELK stack</span> for centralized logging. LeanAI demonstrates advanced DevOps practices, cloud-native design, and the integration of real-time AI with full on security measures to deliver a scalable and innovative fitness solution.",
       "imgs": [
         "assets/images/leanai/1.png",
@@ -233,7 +233,7 @@
       "Technologies": ["AWS", "VPC", "Subnets", "NAT Gateway", "ALB", "Auto Scaling", "S3", "Security Groups"]
     },
     {
-      "Title": "AI-Powered Heatmap Application",
+      "Title": "Intelligent Heatmap Application",
       "Description": "Developed an AI-powered heatmap application using Python and TensorFlow for efficient visualization of complex data insights. Streamlined deployment using Kubernetes and Docker, reducing operational overhead and improving scalability.",
       "Technologies": ["Python", "TensorFlow", "Kubernetes", "Docker", "Jenkins"]
     }
@@ -245,7 +245,8 @@
       "Title": "Professional References",
       "Content": "Below are professionals who can provide valuable insights into my skills and experience.",
       "Job":"COO & AI Product Manager",
-      "Job1":"Research Professor in Computer Science"
+      "Job1":"Research Professor in Computer Science",
+      "Job2":"Senior Java Software Engineer"
     },
 
   "Contact.Pretitle": "And... Now?",
