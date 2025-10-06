@@ -11,14 +11,14 @@
   "Technologies.Title": "Outils et Technologies",
 
   "Banner.Pretitle": "Salut ! Je m'appelle",
-  "Banner.Postitle": "Ingénieur Logiciel",
-  "Banner.Description": "Je suis un <span class='underline'>Ingénieur Logiciel</span> avec de l'expérience en conception, développement et exploitation de fonctionnalités prêtes pour la production et de solutions cloud — optimisation des <span class='underline'>pipelines CI/CD</span>, mise à l’échelle prédictive avec <span class='underline'>Kubernetes</span> et <span class='underline'>Terraform</span> sur <span class='underline'>AWS et Azure</span>. Je me concentre sur l’ingénierie full‑stack, les architectures cloud sécurisées et des opérations fiables.",
+  "Banner.Postitle": "Ingénieur Cloud",
+  "Banner.Description": "Je suis un <span class='underline'>Ingénieur Cloud</span> avec de l'expérience en conception, développement et exploitation de fonctionnalités prêtes pour la production et de solutions cloud — optimisation des <span class='underline'>pipelines CI/CD</span>, mise à l’échelle prédictive avec <span class='underline'>Kubernetes</span> et <span class='underline'>Terraform</span> sur <span class='underline'>AWS et Azure</span>. Je me concentre sur l’ingénierie full‑stack, les architectures cloud sécurisées et des opérations fiables.",
   "Banner.ActionBtn": "Contactez-moi",
 
 
   "AboutMe.Title": "À Propos de Moi",
   "AboutMe.Paragraphs": [
-    "Dans mon parcours IT, j’ai occupé des rôles tels qu’<span class='underline'>Ingénieur Logiciel</span>, <span class='underline'>Ingénieur Cloud</span>, <span class='underline'>Ingénieur DevSecOps</span> et <span class='underline'>Développeur Full‑Stack</span>. J’aime concevoir des applications, des systèmes scalables et des solutions qui favorisent l’efficacité, l’innovation et la sécurité.",
+    "Dans mon parcours IT, j’ai occupé des rôles tels qu’<span class='underline'>Ingénieur Cloud</span>, <span class='underline'>Ingénieur Cloud</span>, <span class='underline'>Ingénieur DevSecOps</span> et <span class='underline'>Développeur Full‑Stack</span>. J’aime concevoir des applications, des systèmes scalables et des solutions qui favorisent l’efficacité, l’innovation et la sécurité.",
     "Mes compétences incluent le développement d’applications full‑stack, la conception d’architectures cloud sécurisées, l’optimisation des <span class='underline'>pipelines CI/CD</span>, la mise à l’échelle prédictive et la création d’outils qui améliorent les workflows et la fiabilité des systèmes.",
     "J’apprécie aussi travailler sur des projets personnels, explorer les nouvelles technologies et élargir mes compétences, autant par passion que par utilité.",
     "Voici quelques‑unes des technologies avec lesquelles j’ai travaillé ou été formé, ainsi que des distinctions obtenues :"
@@ -63,7 +63,7 @@
     },
     {
       "Tab": "DataDoIT",
-      "Title": "Stagiaire Ingénieur Logiciel",
+      "Title": "Stagiaire Ingénieur Cloud",
       "Date": "Juin 2023 - Sep 2023 | Manouba, Tunisie",
       "Description": [
         "Mise en place d’un pipeline de déploiement pour une application MERN via Azure DevOps et Terraform, réduisant l’intervention manuelle et le lead time.",

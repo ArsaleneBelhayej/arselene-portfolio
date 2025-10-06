@@ -9,8 +9,8 @@
   "Header.cvName": "CV_English_Arselene.pdf",
 
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Postitle": "Software Engineer",
-  "Banner.Description": "I am a <span class='underline'>Software Engineer</span> with experience designing, coding and deploying production-grade features as well as cloud solutions, automating <span class='underline'>CI/CD pipelines</span>, and implementing predictive scaling with <span class='underline'>Kubernetes</span> and <span class='underline'>Terraform</span> on <span class='underline'>AWS and Azure</span>. I am dedicated to optimizing full-stack solutions, cloud infrastructures, ensuring security, and improving operational efficiency.",
+  "Banner.Postitle": "Cloud Engineer",
+  "Banner.Description": "I am a <span class='underline'>Cloud Engineer</span> with experience designing, coding and deploying production-grade features as well as cloud solutions, automating <span class='underline'>CI/CD pipelines</span>, and implementing predictive scaling with <span class='underline'>Kubernetes</span> and <span class='underline'>Terraform</span> on <span class='underline'>AWS and Azure</span>. I am dedicated to optimizing full-stack solutions, cloud infrastructures, ensuring security, and improving operational efficiency.",
   "Banner.ActionBtn": "Get in Touch",
   "Technologies.Title": "Tools and Technologies",
 
@@ -62,7 +62,7 @@
     },
     {
       "Tab": "DataDoIT",
-      "Title": "Software Engineer Intern",
+      "Title": "Cloud Engineer Intern",
       "Date": "June 2023 - Sep 2023 | Manouba, Tunisia",
       "Description": [
         "Developed a fully automated deployment pipeline for a MERN stack application using Azure DevOps and Terraform, reducing manual intervention and deployment time.",
